@@ -61,7 +61,22 @@
     margin-top: 50px;
 }
 
+.row4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+
 .row3 p {
+    color: white;
+    padding-right: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.row4 p {
     color: white;
     padding-right: 1rem;
     font-size: 1rem;
@@ -90,6 +105,12 @@
 }
 
 .sunrise {
+    color: white;
+    padding-right: 0.5rem;
+    font-size: 1rem;
+}
+
+.sunset {
     color: white;
     padding-right: 0.5rem;
     font-size: 1rem;

@@ -38,6 +38,7 @@ $(document).ready(function () {
                     }
                 });
                 $('.sunrise').html(res.data[0].sunrise);
+                $('.sunset').html(res.data[0].sunset);
 
                 //SETTING UP THE ICON 
                 let icons = new Skycons({
