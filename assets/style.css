@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
 *{
     padding: 0px;
     margin: 0px;
@@ -22,7 +24,7 @@
     align-items: center;
     justify-content: center;
     position: relative;
-    font-family: 'Abel', sans-serif;
+    font-family: 'Poppins', sans-serif;
     animation-name: introduction;
     animation-duration: 2s;
     
@@ -34,7 +36,7 @@
     justify-content: space-around;
     align-items: center;
     border-bottom: 1px solid white;
-    padding-bottom: 30px;
+    padding-bottom: 2rem;
 }
 .weather-location{
     color: white;
@@ -51,12 +53,28 @@
     align-items: center;
     margin-top: 50px;
 }
+
+.row3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.row3 p {
+    color: white;
+    padding-right: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
 .row2:hover .temp{
     color: #41A5CF;
 }
 .row2:hover .temp-type{
     color: white;
 }
+
 .temp{
     color: white;
     font-size: 80px;
@@ -70,10 +88,26 @@
     cursor: pointer;
     transition: color 1s;
 }
+
+.sunrise {
+    color: white;
+    padding-right: 0.5rem;
+    font-size: 1rem;
+}
+
+.humidity-type {
+    color: #3EB9E6;
+    font-size: 2rem;
+}
+
 .weather-description{
     text-align: center;
     color: white;
+    border-bottom: 1px solid white;
+    padding-bottom: 2rem;
+    width: 30%;
 }
+
 .weather-days{
     display: flex;
     justify-content: space-around;
