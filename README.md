@@ -8,4 +8,8 @@
 
 4./ Icons are moving.
 
+5./ Added time (format: 14 : 12 : 24). If you want to change AM and PM format just delete the /* and */. Adde a simple favicon (source: https://www.flaticon.com/).
+
+6./ Page refresh every 45 min. (To change: in main.js change in the row #113).
+
 ![](weather-app.gif)
