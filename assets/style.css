@@ -129,6 +129,11 @@
     width: 30%;
 }
 
+.weather-description::first-letter {
+    text-transform: uppercase;
+}
+
+
 .weather-days{
     display: flex;
     justify-content: space-around;

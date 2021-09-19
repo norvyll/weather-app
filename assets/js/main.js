@@ -16,7 +16,6 @@ $(document).ready(function () {
 
                 let celsius = res.data[0].temp;
                 let farenheit = (celsius * 1.8) + 32;
-
                 let location = res.data[0].city_name;
                 //*console.log(res);*//
 
@@ -107,3 +106,8 @@ $(document).ready(function () {
         });
     }
 });
+
+//AUTOREFRESH PAGE EVERY 45 MINUTES (2700000ms)
+setTimeout(function () {
+    window.location.reload(1);
+}, 2700000);
