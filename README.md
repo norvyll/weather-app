@@ -1,6 +1,6 @@
 # weather-app
 
-1./ Simple weather app, use https://www.weatherbit.io/ and use Skycons icons.
+1./ Simple weather app, use https://www.weatherbit.io/ API and use Skycons icons.
 
 2./ Changed the weatherbit (day and night icons) icons to Skycons.
 

@@ -10,10 +10,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#311847), to(#3EB9E6));
-    background-image: -webkit-linear-gradient(top, #311847, #3EB9E6);
-    background-image: -moz-linear-gradient(top, #311847, #3EB9E6);
-    background-image: linear-gradient(to bottom, #311847, #3EB9E6);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#00DAC0), to(#2F4858));
+    background-image: -webkit-linear-gradient(top, #00DAC0, #2F4858);
+    background-image: -moz-linear-gradient(top, #00DAC0, #2F4858);
+    background-image: linear-gradient(to bottom, #00DAC0, #2F4858);
 }
 .weather-box{
 
@@ -84,7 +84,7 @@
 }
 
 .row2:hover .temp{
-    color: #41A5CF;
+    color: #2F4858;
 }
 .row2:hover .temp-type{
     color: white;
@@ -98,7 +98,7 @@
     transition: color 1s;
 }
 .temp-type{
-    color: #3EB9E6;
+    color: #2F4858;
     font-size: 80px;
     cursor: pointer;
     transition: color 1s;
@@ -117,7 +117,7 @@
 }
 
 .humidity-type {
-    color: #3EB9E6;
+    color: #2F4858;
     font-size: 2rem;
 }
 
